@@ -81,6 +81,12 @@ input::placeholder {
 }
 
 .btn-danger{
+    font-family: 'Kiwi Maru', 'sans-serif';
     background-color: red;
     border-color: red;
+    color: azure;
+    border-radius: 3px;
+    width:600px;
+    margin: 20px auto;
+    padding:20px;
 }

@@ -6,12 +6,13 @@
     </head>
         <body>
             <h3>Are you sure you want to delete "{{ item }}"?</h3>
+            <div class="centre-column">
+                <a href="{%url 'list'%}">Cancel</a>
 
-            <a href="{%url 'list'%}">Cancel</a>
-
-            <form method="POST" action="">
-                {% csrf_token%}
-                <input class ="btn-danger" type="submit" name="Confirm">
-            </form>
+                <form method="POST" action="">
+                    {% csrf_token%}
+                    <input class ="btn-danger" type="submit" name="Confirm">
+                </form>
+            </div>
         </body>
 </htmL>
